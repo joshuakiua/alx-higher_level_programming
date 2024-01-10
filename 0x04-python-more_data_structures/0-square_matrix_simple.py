@@ -2,6 +2,6 @@
 
 def square_matrix(matrix=[]):
     squares = []
-    for mat in matrix:
-        squares.append([n**2 for n in mat])
-    return squares
+    for line in matrix:
+        squared.append([c**2 for c in line])
+    return squared
